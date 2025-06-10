@@ -39,13 +39,13 @@ export const ProjectCard = ({
             </h2>
             <p className="mt-2 text-sm text-neutral-300">{project.des}</p>
           </div>
-          <div className="flex max-w-[14rem] flex-wrap gap-1 ">
+          <div className="flex w-full  gap-1 overflow-hidden ">
             <LayoutGroup>
               {project.stack.map((stack) => (
                 <StackItems
                   key={stack}
                   technology={stack}
-                  className="-mr-3 hover:z-10  border-2 border-neutral-800 cursor-pointer text-center justify-center items-center bg-neutral-900 mb-4 mt-4 "
+                  className="-mr-3 hover:z-10  border-2 border-neutral-800 cursor-pointer text-center justify-center items-center bg-neutral-900 mb-4 mt-4 overflow-hidden"
                 />
               ))}
             </LayoutGroup>
