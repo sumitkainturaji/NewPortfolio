@@ -5,7 +5,7 @@ import { ProjectCard } from '@/components/Project'
 
 const ProjectsList = () => {
   return (
-    <div className="mx-auto  px-2 py-8 sm:px-6 lg:px-1 lg:mt-20">
+    <div className="mx-auto  px-2 py-8 sm:px-6 lg:px-1 lg:mt-20" id="projects">
       <h1 className="md:text-3xl flex justify-center items-center  gap-1  sm:text-2xl lg:text-4xl">
         A small selection of{'  '}
         <span className="text-[#8333ea]">recent projects</span>
