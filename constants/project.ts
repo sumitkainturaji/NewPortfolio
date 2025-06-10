@@ -55,7 +55,7 @@ export const projects: Project[] = [
   {
     title: 'Ecommerce Clothing Store',
     des: 'Step into style with our MERN-based ecommerce clothing store, designed with Tailwind CSS for a sleek, responsive experience.',
-    src: '/P3.PNG',
+    src: '/P3.png',
     href: 'https://mernstackproject-frontend-jlu9.onrender.com/',
     stack: [
       'React',
